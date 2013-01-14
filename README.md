@@ -13,13 +13,13 @@ Enables a manual according to the different pagetypes.
 * Now you have a CMS menu item called "Manual"
 
 ## Usage
-<code>
+```php
 function getCMSFields() {
     $_fields = parent::getCMSFields();
     $_fields = PagetypeManual::addManual($this->ClassName, $_fields);
     return $_fields;
 }
-</code>
+```
 
 ## Author
 __knsqnt&rsaquo;__ Interactive Design &amp; Development<br>
