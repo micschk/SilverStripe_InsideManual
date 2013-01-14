@@ -1,0 +1,13 @@
+de:
+    Help:
+        HELPCOMMENT: 'Kommentar'
+        HELPTEXT: 'Hilfe'
+    HelpAdmin:
+        MENUTITLE: 'Dokumentation'
+    HelpObject:
+        CONTENT: 'Inhalt'
+        PAGETYPE: 'Seitentyp'
+        PLURALNAME: 'Hilfen'
+        SINGULARNAME: 'Hilfe'
+    Page:
+        HELPTAB: 'Hilfe'
