@@ -18,9 +18,5 @@ $var = Help::setHelp($var);
 $var ist die Variable, die die Funktion zurückgibt.
 
 ## Author
-knsqnt&rsaquo;
-Interactive Design
-&amp; Development
-
-email@knsqnt.com
-http://www.knsqnt.com/
+knsqnt&rsaquo; Interactive Design &amp; Development
+email@knsqnt.com | http://www.knsqnt.com/
