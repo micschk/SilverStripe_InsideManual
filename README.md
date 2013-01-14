@@ -1,21 +1,23 @@
 SilverStripe_PagetypeManual
 ===========================
 
-Add a tab to pagetypes inside the CMS to describes how the current pagetype works.
+Enables a manual according to the different pagetypes.
 
 ## Requirements
 * SilverStripe 3.0
 
 ## Installation
-* Download the module from https://github.com/knsqnt/SilverStripe_PagetypeManual
-* Extract downloaded archive to site root and rename destination folder to "PagetypeManual"
-* Run dev/build?flush=all to regenerate manifest
-* Now entering the CMS you have a section called "Pagetype Manual"
+* Download module from https://github.com/knsqnt/SilverStripe_PagetypeManual
+* Extract module to site root and rename folder to "PagetypeManual"
+* Run a dev/build to regenerate manifest
+* Now you have a CMS menu item called "Manual"
 
 ## Usage
-Setzen sie in der Klasse "Page" in der Funktion 'getCMSFields' folgendes ein:
-$var = Help::setHelp($var);
-$var ist die Variable, die die Funktion zurückgibt.
+<code>function getCMSFields() {<br>
+    $_fields = parent::getCMSFields();<br>
+    $_fields = PagetypeManual::addManual($this->ClassName, $_fields);<br>
+    return $_fields;<br>
+}</code>
 
 ## Author
 <strong>knsqnt&rsaquo;</strong> Interactive Design &amp; Development<br>

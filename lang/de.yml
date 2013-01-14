@@ -1,13 +1,17 @@
 de:
-    Help:
-        HELPCOMMENT: 'Kommentar'
-        HELPTEXT: 'Hilfe'
-    HelpAdmin:
-        MENUTITLE: 'Dokumentation'
-    HelpObject:
+    CMSMain_left.ss:
+        'APPLY FILTER': 'Filter anwenden'
+    PagetypeManual:
+        CHAPTER: 'Kapitel'
+        MANUAL: 'Handbuch'
+        NOTES: 'Notizen'
+        PAGETYPE: 'Seitentyp'
+    PagetypeManualAdmin:
+        MENUTITLE: 'Handbuch'
+    PagetypeManualChapter:
+        COMMENT: 'Kommentar'
         CONTENT: 'Inhalt'
         PAGETYPE: 'Seitentyp'
-        PLURALNAME: 'Hilfen'
-        SINGULARNAME: 'Hilfe'
-    Page:
-        HELPTAB: 'Hilfe'
+        PLURALNAME: 'Kapitel'
+        SINGULARNAME: 'Kapitel'
+    
