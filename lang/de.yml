@@ -9,9 +9,10 @@ de:
     PagetypeManualAdmin:
         MENUTITLE: 'Handbuch'
     PagetypeManualChapter:
-        COMMENT: 'Kommentar'
         CONTENT: 'Inhalt'
-        PAGETYPE: 'Seitentyp'
+        DATA_OBJECT: 'DatenObjekt'
+        NO_SELECTION: '(keine Auswahl)'
+        PAGE_TYPE: 'SeitenTyp'
         PLURALNAME: 'Kapitel'
         SINGULARNAME: 'Kapitel'
     
