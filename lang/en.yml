@@ -1,0 +1,16 @@
+en:
+    InsideManual:
+        CHAPTER: 'Chapter'
+        MANUAL: 'Manual'
+        NOTES: 'Notes'
+        PAGETYPE: 'Pagetype'
+    InsideManualAdmin:
+        MENUTITLE: 'Manual'
+    InsideManualChapter:
+        CONTENT: 'Content'
+        DATA_OBJECT: 'DataObject'
+        NO_SELECTION: '(no selection)'
+        PAGE_TYPE: 'PageType'
+        PLURALNAME: 'Chapter'
+        SINGULARNAME: 'Chapters'
+    

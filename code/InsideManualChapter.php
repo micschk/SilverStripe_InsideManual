@@ -1,6 +1,6 @@
 <?php
 
-class PagetypeManualChapter extends DataObject {
+class InsideManualChapter extends DataObject {
     
     static $db = array(
         'PageType' => 'Varchar(255)',
@@ -30,9 +30,9 @@ class PagetypeManualChapter extends DataObject {
         
         $_labels = parent::fieldLabels($__includerelations); 
         
-        $_labels['Pagetype'] = _t('PagetypeManualChapter.PAGE_TYPE', 'PageType');
-        $_labels['DataObject'] = _t('PagetypeManualChapter.DATA_OBJECT', 'DataObject');
-        $_labels['Content']  = _t('PagetypeManualChapter.CONTENT', 'Content');
+        $_labels['PageType'] = _t('InsideManualChapter.PAGE_TYPE', 'PageType');
+        $_labels['DataObject'] = _t('InsideManualChapter.DATA_OBJECT', 'DataObject');
+        $_labels['Content']  = _t('InsideManualChapter.CONTENT', 'Content');
         
         return $_labels; 
         
@@ -41,9 +41,9 @@ class PagetypeManualChapter extends DataObject {
     public function getCMSFields() {
         
         return new FieldList(
-            new DropdownField('PageType', _t('PagetypeManualChapter.PAGE_TYPE', 'PageType'), $this->getPagetypes()),
-            new TextField('DataObject', _t('PagetypeManaualChapter.DATA_OBJECT', 'DataObject')),
-            new HtmlEditorField('Content', _t('PagetypeManualChapter.CONTENT', 'Content'))
+            new DropdownField('PageType', _t('InsideManualChapter.PAGE_TYPE', 'PageType'), $this->getPagetypes()),
+            new TextField('DataObject', _t('InsideManaualChapter.DATA_OBJECT', 'DataObject')),
+            new HtmlEditorField('Content', _t('InsideManualChapter.CONTENT', 'Content'))
         );
         
     }
@@ -58,8 +58,8 @@ class PagetypeManualChapter extends DataObject {
             
         }
         
-        $_pagetypes['DataObject'] = _t('PagetypeManualChapter.DATA_OBJECT', 'DataObject');
-        $_pagetypes['(no selection)'] = _t('PagetypeManualChapter.NO_SELECTION', '(no selection)');
+        $_pagetypes['DataObject'] = _t('InsideManualChapter.DATA_OBJECT', 'DataObject');
+        $_pagetypes['(no selection)'] = _t('InsideManualChapter.NO_SELECTION', '(no selection)');
         
         asort($_pagetypes);
         

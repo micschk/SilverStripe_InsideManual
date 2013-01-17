@@ -1,14 +1,14 @@
 de:
     CMSMain_left.ss:
         'APPLY FILTER': 'Filter anwenden'
-    PagetypeManual:
+    InsideManual:
         CHAPTER: 'Kapitel'
         MANUAL: 'Handbuch'
         NOTES: 'Notizen'
         PAGETYPE: 'Seitentyp'
-    PagetypeManualAdmin:
+    InsideManualAdmin:
         MENUTITLE: 'Handbuch'
-    PagetypeManualChapter:
+    InsideManualChapter:
         CONTENT: 'Inhalt'
         DATA_OBJECT: 'DatenObjekt'
         NO_SELECTION: '(keine Auswahl)'
