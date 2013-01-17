@@ -13,16 +13,17 @@ Enables a manual according to different pagetypes or by dataobjects.
 * Now you have a CMS menu item called "Manual"
 
 ## Usage
-<code>function getCMSFields() {<br>
-    $_fields = parent::getCMSFields();<br>
-    $_fields = InsideManual::addManual($this->ClassName, $_fields);<br>
-    return $_fields;<br>
-}</code>
+```php
+function getCMSFields() {
+    $_fields = parent::getCMSFields();
+    $_fields = PagetypeManual::addManual($this->ClassName, $_fields);
+    return $_fields;
+}
+```
 
 ## Author
-<strong>knsqnt&rsaquo;</strong> Interactive Design &amp; Development<br>
+__knsqnt&rsaquo;__ Interactive Design &amp; Development<br>
 email@knsqnt.com | http://www.knsqnt.com/
-
 
 ## Tranlations
 en, de
