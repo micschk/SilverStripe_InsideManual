@@ -3,6 +3,7 @@ de:
         'APPLY FILTER': 'Filter anwenden'
     InsideManual:
         CHAPTER: 'Kapitel'
+        HELP: 'Hilfe'
         MANUAL: 'Handbuch'
         NOTES: 'Notizen'
         PAGETYPE: 'Seitentyp'

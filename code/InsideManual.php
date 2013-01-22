@@ -11,7 +11,7 @@ class InsideManual {
             $_content = $_result->column('Content');
             
             $__fields->addFieldsToTab('Root', array(
-                new Tab('InsideManual', _t('InsideManual.MANUAL', 'Manual'))
+                new Tab('InsideManual', _t('InsideManual.HELP', 'Help'))
             ), $__this->DependentPagesCount() ? 'Dependent' : NULL);
             
             $__fields->addFieldsToTab('Root.InsideManual', array(
