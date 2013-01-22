@@ -15,9 +15,9 @@ Enables a manual according to different pagetypes or by dataobjects.
 ## Usage
 ```php
 function getCMSFields() {
-    $_fields = parent::getCMSFields();
-    $_fields = PagetypeManual::addManual($this->ClassName, $_fields);
-    return $_fields;
+    $fields = parent::getCMSFields();
+    $fields = PagetypeManual::addManual($this, $fields);
+    return $fields;
 }
 ```
 
